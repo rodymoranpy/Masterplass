@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c3abfb34833343659d95433bcebd44c5" Name="Diagram1">
+        <EntityTypeShape EntityType="masterplasModel.acuerdos_comerciales" Width="1.5" PointX="9.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.acuerdos_comerciales_detalle" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.acuerdos_comerciales_periodo_pago" Width="1.5" PointX="5.75" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.acuerdos_comerciales_tipos" Width="1.5" PointX="5.75" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.acuerdos_comerciales_tipos_pagos" Width="1.5" PointX="21.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.agencias" Width="1.5" PointX="12" PointY="185" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.ajustes_cab" Width="1.5" PointX="10.5" PointY="206" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.ajustes_detalle" Width="1.5" PointX="12.75" PointY="170.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.articulos" Width="1.5" PointX="10.5" PointY="164.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.articulos_area" Width="1.5" PointX="15.75" PointY="170.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.articulos_ctas_contables" Width="1.5" PointX="15.75" PointY="166.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.articulos_historico_costos" Width="1.5" PointX="21.75" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.articulos_precios" Width="1.5" PointX="15.75" PointY="174.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.articulos_precios_modificados" Width="1.5" PointX="23.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.articulos_proveedores" Width="1.5" PointX="2.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.auditoria" Width="1.5" PointX="6" PointY="157.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.bancos" Width="1.5" PointX="18.75" PointY="133.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.bienes" Width="1.5" PointX="24" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.borrador" Width="1.5" PointX="21.75" PointY="130.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cajas" Width="1.5" PointX="14.25" PointY="184.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cajas_fondo_fijo" Width="1.5" PointX="8.25" PointY="145" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cajas_habilitaciones" Width="1.5" PointX="16.5" PointY="151.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cajas_mov_cab" Width="1.5" PointX="19.5" PointY="140" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cajas_mov_cab_ped" Width="1.5" PointX="24.75" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cajas_mov_cobros" Width="1.5" PointX="16.75" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cajas_mov_cuotas" Width="1.5" PointX="25.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cajas_mov_det" Width="1.5" PointX="18.75" PointY="167.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cajas_mov_det_anticipo" Width="1.5" PointX="26.75" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cajas_mov_det_ped" Width="1.5" PointX="26.75" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cajas_mov_det_ped_borra" Width="1.5" PointX="18.75" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cajas_mov_valores" Width="1.5" PointX="32.25" PointY="145.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cajas_tipos_documentos" Width="1.5" PointX="29.5" PointY="160.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cajas_tipos_ingresos" Width="1.5" PointX="26.5" PointY="168.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.camiones" Width="1.5" PointX="13.5" PointY="159.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.camiones_articulos" Width="1.5" PointX="18.75" PointY="163.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.camiones_remisiones" Width="1.5" PointX="27.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.camiones_remisiones_det" Width="1.5" PointX="12.75" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.carta_notas_debitos" Width="1.5" PointX="26.75" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cda_cabeza" Width="1.5" PointX="21.75" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cda_detalle" Width="1.5" PointX="24" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.centros_de_costo" Width="1.5" PointX="13.5" PointY="155.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cheques_inutilizados" Width="1.5" PointX="28.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cliente_fiel_descuentos" Width="1.5" PointX="28.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.coeficientes_revaluo" Width="1.5" PointX="28.75" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.conceptos" Width="1.5" PointX="16.5" PointY="162.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.conciliacion_bancaria" Width="1.5" PointX="21" PointY="123.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.conciliacion_bancaria_cab" Width="1.5" PointX="21" PointY="118.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.constraint_list" Width="1.5" PointX="4.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.contenedores" Width="1.5" PointX="28.75" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.contenedores_movimientos" Width="1.5" PointX="28.75" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.contenedores_tipos" Width="1.5" PointX="28.75" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.contgral" Width="1.5" PointX="28.75" PointY="36" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.controla_meses" Width="1.5" PointX="13.5" PointY="136.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.corte_inventario_cab" Width="1.5" PointX="10.5" PointY="180.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.corte_inventario_det" Width="1.5" PointX="12.75" PointY="164.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cotizaciones" Width="1.5" PointX="8.25" PointY="136.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.datos_presupuestos_pagos" Width="1.5" PointX="29.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.depositos" Width="1.5" PointX="8.25" PointY="201.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.depositos_areas" Width="1.5" PointX="10.5" PointY="201.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.depositos_cajas" Width="1.5" PointX="5.75" PointY="37" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.despachos" Width="1.5" PointX="23.75" PointY="37" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.despachos_aduanas" Width="1.5" PointX="30.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.despachos_aranceles" Width="1.5" PointX="30.75" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.despachos_liquidaciones" Width="1.5" PointX="30.75" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.disponibilidades" Width="1.5" PointX="21" PointY="113.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.documentos_inutilizados" Width="1.5" PointX="14.75" PointY="38" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.dual" Width="1.5" PointX="16.75" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.emisores_oc" Width="1.5" PointX="30.75" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.empresas" Width="1.5" PointX="3" PointY="138.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.empresas_agencias" Width="1.5" PointX="20.75" PointY="38" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.empresas_timbrados" Width="1.5" PointX="30.75" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.entidades_bancarias" Width="1.5" PointX="25" PointY="173.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.entidades_bancarias_sucursales" Width="1.5" PointX="30.75" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.estibas_det" Width="1.5" PointX="30.75" PointY="37" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.facturas_agencias" Width="1.5" PointX="31.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.facturas_cab" Width="1.5" PointX="22.5" PointY="137" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.facturas_cab_temp" Width="1.5" PointX="32.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.facturas_cuotas" Width="1.5" PointX="24.75" PointY="149.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.facturas_det" Width="1.5" PointX="5.75" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.facturas_det_temp" Width="1.5" PointX="7.75" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.familias_articulos" Width="1.5" PointX="9.75" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_arqueo_caja" Width="1.5" PointX="11.75" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_boletas_retencion" Width="1.5" PointX="24.25" PointY="165.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_cajas" Width="1.5" PointX="14.25" PointY="190.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_cajas_habilitaciones" Width="1.5" PointX="32.75" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_cobranzas_modificadas" Width="1.5" PointX="32.75" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_cobros_a_regularizar" Width="1.5" PointX="25.75" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_datos_cheques" Width="1.5" PointX="27.25" PointY="157.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_datos_tarjetas" Width="1.5" PointX="21.25" PointY="170.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_emisores_documentos" Width="1.5" PointX="33.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_emisores_documentos_detalle" Width="1.5" PointX="20.75" PointY="41" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_emisores_series" Width="1.5" PointX="34.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_movimientos_caja" Width="1.5" PointX="29.5" PointY="148.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_movimientos_caja_cobros" Width="1.5" PointX="31.75" PointY="152.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_movimientos_caja_detalle" Width="1.5" PointX="18.75" PointY="158.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_tipos_cuentas_bancos" Width="1.5" PointX="34.75" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_tipos_movimientos_caja" Width="1.5" PointX="27.25" PointY="150.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_tipos_operaciones_bancos" Width="1.5" PointX="34.75" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_tipos_transacciones_cobranzas" Width="1.5" PointX="27.25" PointY="153" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fina_tipos_valores" Width="1.5" PointX="27.25" PointY="164.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.flujo_efectivo" Width="1.5" PointX="13.75" PointY="42" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.flujo_efectivo_cuentas" Width="1.5" PointX="10.5" PointY="135.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.flujo_efectivo_items" Width="1.5" PointX="34.75" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.flujo_efectivo_items_modelo" Width="1.5" PointX="15.75" PointY="42" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fondo_fijo" Width="1.5" PointX="24.75" PointY="155.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fondo_fijo_anulados" Width="1.5" PointX="5.25" PointY="162.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fondo_fijo_cabeza" Width="1.5" PointX="10.5" PointY="129.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.fondo_fijo_transferencias" Width="1.5" PointX="10.5" PointY="125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.formulas" Width="1.5" PointX="12.75" PointY="201.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.geometry_columns" Width="1.5" PointX="34.75" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.grupos_bienes" Width="1.5" PointX="21.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.impresion_cheques" Width="1.5" PointX="34.75" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.ingresos_cab" Width="1.5" PointX="8.25" PointY="127.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.ingresos_det" Width="1.5" PointX="10.5" PointY="106.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.ingresos_valores" Width="1.5" PointX="34.75" PointY="37" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.inventario_inicial" Width="1.5" PointX="30.75" PointY="42" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.libro_diario" Width="1.5" PointX="24.75" PointY="134.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.marcas" Width="1.5" PointX="5.25" PointY="167" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.matriz_cabeza" Width="1.5" PointX="32.75" PointY="42" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.matriz_detalle" Width="1.5" PointX="34.75" PointY="42" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.mensajes" Width="1.5" PointX="27.75" PointY="43" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.menus" Width="1.5" PointX="3.75" PointY="188.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.meses" Width="1.5" PointX="11.25" PointY="122" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.modulos_sistema" Width="1.5" PointX="1.5" PointY="158.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.monedas" Width="1.5" PointX="6" PointY="132" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.motivos_ajustes" Width="1.5" PointX="8.25" PointY="206.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.movimiento_articulos_cab" Width="1.5" PointX="10.5" PointY="190.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.movimiento_articulos_cab_borra" Width="1.5" PointX="36.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.movimiento_articulos_det" Width="1.5" PointX="12.75" PointY="174.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.movimiento_articulos_det_borra" Width="1.5" PointX="12.75" PointY="215.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.movimiento_articulos_temp_cab" Width="1.5" PointX="14.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.movimiento_articulos_temp_cuota" Width="1.5" PointX="17" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.movimiento_articulos_temp_det" Width="1.5" PointX="17" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.niveles" Width="1.5" PointX="10.5" PointY="160" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.operaciones_bancarias_cab" Width="1.5" PointX="24" PointY="91.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.operaciones_bancarias_det" Width="1.5" PointX="26.25" PointY="93.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.operaciones_borrador" Width="1.5" PointX="19.5" PointY="130.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.operaciones_facturas" Width="1.5" PointX="18" PointY="105.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.operaciones_stock" Width="1.5" PointX="9.75" PointY="44" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.orden_compra_cabeza" Width="1.5" PointX="36.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.orden_compra_detalle" Width="1.5" PointX="36.75" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.orden_pago_cabeza" Width="1.5" PointX="18.75" PointY="183.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.orden_pago_cheques" Width="1.5" PointX="21" PointY="185.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.orden_pago_facturas" Width="1.5" PointX="21" PointY="181.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.orden_pago_impresion" Width="1.5" PointX="17.75" PointY="44" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.paises" Width="1.5" PointX="19.75" PointY="44" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.parametros" Width="1.5" PointX="36.75" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.parte_caja" Width="1.5" PointX="21" PointY="157.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.periodos_fiscales" Width="1.5" PointX="8.25" PointY="140" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.permisos" Width="1.5" PointX="3" PointY="162.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.personas" Width="1.5" PointX="11.25" PointY="139.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.personas_app" Width="1.5" PointX="36.75" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.personas_frentes" Width="1.5" PointX="36.75" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.personas_puntos" Width="1.5" PointX="36.75" PointY="39" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.personas_timbrado" Width="1.5" PointX="36.75" PointY="43" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.pgmreports" Width="1.5" PointX="5.75" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.plan_cuentas" Width="1.5" PointX="16.5" PointY="136.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.politicas_de_venta" Width="1.5" PointX="18.75" PointY="177.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.politicas_ventas" Width="1.5" PointX="16.5" PointY="180.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.presupuesto" Width="1.5" PointX="7.5" PointY="194.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.presupuesto_cuentas" Width="1.5" PointX="21.75" PointY="166.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.presupuesto_informe" Width="1.5" PointX="29.75" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.presupuesto_items" Width="1.5" PointX="5.25" PointY="194.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.retenciones" Width="1.5" PointX="38.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.retiros_caja" Width="1.5" PointX="38.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.revaluo_cabeza" Width="1.5" PointX="18.75" PointY="193.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.revaluo_detalle" Width="1.5" PointX="21" PointY="192.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.revaluo_movimientos" Width="1.5" PointX="23.25" PointY="192.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_cargos" Width="1.5" PointX="3.75" PointY="129.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_categorias_mjt" Width="1.5" PointX="3.75" PointY="132.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_categorias_registro" Width="1.5" PointX="3.75" PointY="135.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_ciudades" Width="1.5" PointX="8.25" PointY="212.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_conceptos" Width="1.5" PointX="12" PointY="114.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_conceptos_fijos" Width="1.5" PointX="14.25" PointY="145.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_configuracion_vacaciones" Width="1.5" PointX="38.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_configuraciones" Width="1.5" PointX="11.75" PointY="46" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_departamentos" Width="1.5" PointX="6" PointY="212.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_departamentos_empresa" Width="1.5" PointX="3.75" PointY="125.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_descuentos" Width="1.5" PointX="23.25" PointY="159.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_descuentos_detalle" Width="1.5" PointX="25.5" PointY="145.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_empleados" Width="1.5" PointX="6" PointY="137.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_estados_civiles" Width="1.5" PointX="3.75" PointY="155.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_estudios" Width="1.5" PointX="14.25" PointY="141.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_familia" Width="1.5" PointX="14.25" PointY="149.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_feriados" Width="1.5" PointX="13.75" PointY="46" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_formas_pago" Width="1.5" PointX="3.75" PointY="158.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_grupos_conceptos" Width="1.5" PointX="9.75" PointY="114.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_hist_departamentos_cargos" Width="1.5" PointX="38.75" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_historico_salarios" Width="1.5" PointX="38.75" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_historico_salarios_minimo" Width="1.5" PointX="38.75" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_historico_situaciones" Width="1.5" PointX="38.75" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_horas_extras" Width="1.5" PointX="38.75" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_justificativos" Width="1.5" PointX="38.75" PointY="37" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_liquidaciones_cabeza" Width="1.5" PointX="17.25" PointY="143" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_liquidaciones_detalle" Width="1.5" PointX="25.5" PointY="140.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_marcaciones" Width="1.5" PointX="8.25" PointY="155.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_marcaciones_detalle" Width="1.5" PointX="31.75" PointY="46" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_motivos_ausencia" Width="1.5" PointX="38.75" PointY="42" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_motivos_salida" Width="1.5" PointX="3.75" PointY="170.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_niveles_estudio" Width="1.5" PointX="3.75" PointY="173.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_paises" Width="1.5" PointX="3.75" PointY="176.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_profesiones" Width="1.5" PointX="3.75" PointY="179.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_referencias" Width="1.5" PointX="8.25" PointY="164.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_registro_marcaciones" Width="1.5" PointX="38.75" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_relojes" Width="1.5" PointX="7.75" PointY="47" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_sexos" Width="1.5" PointX="3.75" PointY="182.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_situaciones" Width="1.5" PointX="3.75" PointY="185.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_solicitud_vacaciones" Width="1.5" PointX="8.25" PointY="168" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_solicitudes" Width="1.5" PointX="8.25" PointY="173" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_sucursales" Width="1.5" PointX="10.5" PointY="211.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_tipo_familia" Width="1.5" PointX="12" PointY="110.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_tipos_estudios" Width="1.5" PointX="12" PointY="118.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_tipos_justificativos" Width="1.5" PointX="19.75" PointY="47" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_tipos_pago" Width="1.5" PointX="15" PointY="129.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_trabajos_anteriores" Width="1.5" PointX="8.25" PointY="177.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_turnos" Width="1.5" PointX="33.75" PointY="47" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rrhh_vacaciones" Width="1.5" PointX="10.5" PointY="156.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.rubros" Width="1.5" PointX="20.25" PointY="105.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.ruc" Width="1.5" PointX="40.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.saldos_facturas" Width="1.5" PointX="40.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.security_objects" Width="1.5" PointX="40.75" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.series_cheques" Width="1.5" PointX="21" PointY="162" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.series_documentos" Width="1.5" PointX="19.5" PointY="95.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.sist_archivos" Width="1.5" PointX="40.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.sist_configuraciones" Width="1.5" PointX="40.75" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.sist_origen_archivos" Width="1.5" PointX="40.75" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.sist_paises" Width="1.5" PointX="12.75" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.sorteos" Width="1.5" PointX="40.75" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.spatial_ref_sys" Width="1.5" PointX="40.75" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.stk_remisiones_cabeza" Width="1.5" PointX="19.75" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.stk_remisiones_cabeza_anula" Width="1.5" PointX="19.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.stk_remisiones_detalle" Width="1.5" PointX="22" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.stk_remisiones_detalle_anula" Width="1.5" PointX="22" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tablas_cierre_caja" Width="1.5" PointX="40.75" PointY="37" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tablas_sincroniza" Width="1.5" PointX="40.75" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tablas_sistema" Width="1.5" PointX="3.75" PointY="122.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_colores_vehiculos" Width="1.5" PointX="15" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_departamentos_cia" Width="1.5" PointX="12.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_fichas_presupuestos" Width="1.5" PointX="10" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_mantenimientos" Width="1.5" PointX="40.75" PointY="43" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_marcas_vehiculos" Width="1.5" PointX="7.5" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_modelos_vehiculos" Width="1.5" PointX="9.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_motivos_rechazo" Width="1.5" PointX="7.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_ordenes" Width="1.5" PointX="0.75" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_ordenes_anotaciones" Width="1.5" PointX="35.75" PointY="48" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_ordenes_chaperia" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_ordenes_controles" Width="1.5" PointX="3" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_ordenes_fotos" Width="1.5" PointX="3" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_ordenes_materiales" Width="1.5" PointX="37.75" PointY="48" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_ordenes_notas" Width="1.5" PointX="3" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_ordenes_pinturas_cab" Width="1.5" PointX="3" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_ordenes_pinturas_detalle" Width="1.5" PointX="5.25" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_ordenes_repuestos" Width="1.5" PointX="3" PointY="37" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_ordenes_solicitudes" Width="1.5" PointX="3" PointY="32.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_ordenes_solicitudes_detalle" Width="1.5" PointX="5.25" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_ordenes_tareas" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_ordenes_tareas_detalle" Width="1.5" PointX="7.5" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_ordenes_terceros" Width="1.5" PointX="3" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_partes" Width="1.5" PointX="9.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_partes_vehiculos" Width="1.5" PointX="12" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_piezas_inspeccion" Width="1.5" PointX="40.75" PointY="47" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_prefactura" Width="1.5" PointX="3" PointY="57.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_prefactura_detalle" Width="1.5" PointX="5.25" PointY="54.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_recepcion" Width="1.5" PointX="13.75" PointY="49" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_recepcion_detalle" Width="1.5" PointX="21.75" PointY="49" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_tareas_materiales" Width="1.5" PointX="19.5" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_tareas_tiempos" Width="1.5" PointX="17.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_tipos_danos" Width="1.5" PointX="15" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_tipos_pagos" Width="1.5" PointX="23.75" PointY="49" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_tipos_piezas" Width="1.5" PointX="9.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_tipos_servicios" Width="1.5" PointX="25.75" PointY="49" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_tipos_tareas" Width="1.5" PointX="15" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_tipos_trabajos" Width="1.5" PointX="12.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_tipos_vehiculos" Width="1.5" PointX="7.5" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_vehiculos" Width="1.5" PointX="17.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tall_versiones_vehiculos" Width="1.5" PointX="15" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tipos_articulos" Width="1.5" PointX="5.25" PointY="200.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tipos_comprobantes" Width="1.5" PointX="19.5" PointY="109.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tipos_cuentas_bancos" Width="1.5" PointX="16.5" PointY="132.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tipos_documentos_series" Width="1.5" PointX="17.25" PointY="128.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tipos_empresas" Width="1.5" PointX="0.75" PointY="142" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tipos_facturas" Width="1.5" PointX="20.25" PointY="100.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tipos_identificadores" Width="1.5" PointX="0.75" PointY="145.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tipos_impuestos" Width="1.5" PointX="8.25" PointY="182.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tipos_ingresos" Width="1.5" PointX="6" PointY="127.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tipos_mvtos" Width="1.5" PointX="17.25" PointY="125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tipos_operaciones_bancos" Width="1.5" PointX="21.75" PointY="94.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tipos_pagos" Width="1.5" PointX="42.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tipos_politicas_venta" Width="1.5" PointX="16.5" PointY="183.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.tipos_solicitudes" Width="1.5" PointX="42.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.transferencias" Width="1.5" PointX="42.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.unidades_medida" Width="1.5" PointX="8.25" PointY="185.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.usuarios" Width="1.5" PointX="0.75" PointY="149.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.usuarios_empresas" Width="1.5" PointX="8.25" PointY="149.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.usuarios_modulos" Width="1.5" PointX="15.75" PointY="157.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.ventas_online" Width="1.5" PointX="42.75" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.zonas" Width="1.5" PointX="42.75" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.zz" Width="1.5" PointX="5.75" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.aranceles" Width="1.5" PointX="42.75" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.cajas_mov_det_eliminados" Width="1.5" PointX="42.75" PointY="32" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.facturas_series" Width="1.5" PointX="42.75" PointY="40" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.liquidacion" Width="1.5" PointX="42.75" PointY="43" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.pbcatcol" Width="1.5" PointX="39.75" PointY="50" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.pbcatedt" Width="1.5" PointX="5.75" PointY="51" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.pbcatfmt" Width="1.5" PointX="7.75" PointY="51" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.pbcattbl" Width="1.5" PointX="41.75" PointY="51" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.pbcatvld" Width="1.5" PointX="43.75" PointY="51" IsExpanded="true" />
+        <EntityTypeShape EntityType="masterplasModel.stock_mensual" Width="1.5" PointX="12.75" PointY="197.125" IsExpanded="true" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_agencias" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cheques_sucursales" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_habilitacionescajas_sucursales" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_retenciones_sucursales" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tarjetas_sucursales" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ajustes_det_cab" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ajustes_motivos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ajustes_areas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ajustes_articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ajustes_detalle_depositos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_articulos_ctas_contables_articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_articulos_det_articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_articulos_empresas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_articulos_marcas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_articulos_precios_articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_articulos_tipos_arti" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_articulos_tipos_impuestos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_articulos_uni_medida" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_articulos_unidades_medida" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_det_articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_camiones_articulos_articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_corte_inv_det_articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_formula_articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_fromula_comp_articu" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_movimiento_art_det_articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_movimiento_art_det_articulos1" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_politicas_venta_articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_articulos_area_depositos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_articulos_ctas_contables_centros" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_articulos_precios_politicas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_auditoria_tablas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_auditoria_usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_bancos_plan_cuentas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_bancos_tipos_ctas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_concilia_cab_bancos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_concilia_det_bancos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_disponibilidades_bancos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_parte_caja_bancos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_series_cheques_bancos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_bienes_grupos_bienes" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_borrador_operaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_borrador_plan_cuentas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_borrador_tip_comprob" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_borrador_usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_borrador_usuarios_proc" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_habilitaciones_cajas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_tipos_documentos_cajas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_tipos_ingresos_cajas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_fondo_fijo" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_fondo_fijo_monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_fondo_fijo_cabeza_cajas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_transferencias_fondo_fijo" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_cab_cajas_hab" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_hab_usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_cab_personas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_mov_cab_tipos_docum" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_mov_cab_tipos_mvtos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_det_conceptos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_det_politicas_ventas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_mov_valores_entidades" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_valores_tipos_ingresos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_tipos_documentos_tipos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cajas_tipos_ing_tip_ing" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_camiones_articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_chofer_personas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cda_detalle_cabeza" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_control_meses_mes" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_control_meses_periodo" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_corte_invetario_det_cab" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_corte_inv_depositos_areas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cotizaciones_monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cotizaciones_usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_despositos_areas_depositos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_stock_mensual_depositos_areas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_empresas_tipo_identif" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_empresas_tipos_empresas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_empresas_usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_fondo_fijo_anulados_empresas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_marcas_empresas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_periodos_fiscales_empresas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_personas_empresas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_presu_itmes_empresas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tipos_articulos_empresas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_usuario_empresas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cheques_bancos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tarjetas_bancos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_facturas_cab_monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_facturas_cab_personas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_facturas_cab_rubros" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_facturas_cab_tipos_fact" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_facturas_cuotas_cab" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_fondo_fijo_facturas_cab" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_movicajas_retenciones" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_retenciones_monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_cheques_monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_movicajas_cheques" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_movicajas_tarjetas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tarjetas_monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fina_movimientos_caja1" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_movcajas_tipostransac" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_movicaja_tiposmovcaja" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_movicajas_monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_movicajas_tiposvalores" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_movicajas_cuentascontables" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_flujo_efectivo_periodos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ingresos_cab_tipo_ingr" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ingresos_det_cab" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ingresos_monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ldiario_plan_cuentas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ldiario_tipo_comprob" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_libro_diario_operaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_menus_modulos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_usuarios_modulos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_usuarios_modulos1" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_usuarios_modulos_sistema" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_mov_articulos_det_cab" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_movarttem_det_cab" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_movimientosart_temp_cuotas_cab" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_niveles_per_fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_operaciones_bancarias_tipos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_operaciones_bancos_cab_det" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tipos_operaciones_bancos_borrador" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_rubros_operaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tipos_facturas_operacion_fac" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_orden_pago_cheque_cabeza" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_orden_pago_fact_cabeza" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_orden_pago_plan_cuentas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_periodos_usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_plan_cuentas_per_fiscal" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_accesos_usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_permisos_usuarios_modulos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_personas_identificadores" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_plan_cuenta_usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_presu_ctas_pcuentas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_revaluo_cab_plan_cuentas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_politicas_venta_tipos_politicas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_presu_item_presu" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_presupuesto_cuentas_items" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_revaluo_detalle_cab" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_revaluo_mov_detalle" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_empleados_cargos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_empleados_categorias_mjt" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_emple_categ_registro" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ciudades_departamentos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_sucursales_ciudades" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_conc_fijos_conceptos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_conceptos_grupos_concep" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_rrhh_liqdet_conceptos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_conc_fijos_empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_departamentos_paises" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_departamentos_dependencias" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_empleados_departamentos_emp" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_rrhh_descuentos_det_cab" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_rrhh_descuentos_liqui" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_empleados_estado_civil" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_empleados_formas_pago" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_empleados_motivo_salida" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_empleados_nacionalidades" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_empleados_nivel_estudio" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_empleados_profesiones" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_empleados_sexos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_empleados_situaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_empleados_tipos_identifi" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_estudios_empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_hijos_empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_marcaciones_empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_referencias_empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_rrhhliquidacion_empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_solic_vacaciones_empleado" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_solicitudes_empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_trabajos_ant_empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_vacaciones_empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_estudios_tipos_estudios" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_familias_tipo_familia" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_familias_tipos_identific" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_rrhh_liquida_det_liquida_cab" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tipos_pagos_rrhhliquidacion" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_vacaciones_sol_vacaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_series_documentos_tipos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_versiones_vehiculos_paises" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_remisiones_deta_cabeza" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_remisiones_deta_cabeza_anula" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_vehiculos_colores" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tareasxparte_departamentos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_presucliente_motivo_rechazo" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_presuseguro_motivorechazo" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_modelos_vehiculos_marcas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_modelos_vehiculos_tipos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_partesvehiculos_modelosvehi" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_versiones_modelos_vehiculos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ordeneschaperia_ordenes" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ordenescontroles_ordenes" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ordenesnotas_ordenes" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ordenesrepuestos_ordenes" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ordenessolicitud_ordenes" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ordenesterceros_ordenes" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ordenpinturas_ordenes" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_prefacturas_ordenes" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tall_ord_reference_tall_ord" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ordentareas_ordenchaperia" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ordenespinturadet_ordenpinturacab" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ordenessolicituddet_cab" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_ordenestareasdet_ordenestar" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_partesvehiculos_partes" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tipostareas_partes" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_partesvehi_tipos_piezas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_prefacturasdet_prefacturas" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tareasmateriales_tareastiempos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tareastiempo_tareasparte" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tareastiempos_tipopieza" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tareastiempos_tiposdanos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tipostareas_tipostrabajos" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.tall_versiones_vehiculos1" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tipos_facturas_tipos_docu" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_tipos_facturas_tipos_docu_serie" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_usuarios_det_usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_usuarios_empresas_usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="masterplasModel.fk_usuarios_modulos_usuarios" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

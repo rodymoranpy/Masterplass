@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Modelo\Modelo.csproj", "{EC001E1E-7A86-41F4-AA8E-E58C0347CA88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servicios", "Servicios\Servicios.csproj", "{E1BF4E2E-C5D9-4B0A-9F4F-50062218DB5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterPlasApp", "MasterPlasApp\MasterPlasApp.csproj", "{58442A26-B388-4960-AD93-BCCA1D3AB4FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC001E1E-7A86-41F4-AA8E-E58C0347CA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC001E1E-7A86-41F4-AA8E-E58C0347CA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC001E1E-7A86-41F4-AA8E-E58C0347CA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC001E1E-7A86-41F4-AA8E-E58C0347CA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1BF4E2E-C5D9-4B0A-9F4F-50062218DB5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1BF4E2E-C5D9-4B0A-9F4F-50062218DB5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1BF4E2E-C5D9-4B0A-9F4F-50062218DB5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1BF4E2E-C5D9-4B0A-9F4F-50062218DB5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58442A26-B388-4960-AD93-BCCA1D3AB4FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58442A26-B388-4960-AD93-BCCA1D3AB4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58442A26-B388-4960-AD93-BCCA1D3AB4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58442A26-B388-4960-AD93-BCCA1D3AB4FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F711BD61-D882-4541-98F4-C63B0E1C9529}
+	EndGlobalSection
+EndGlobal
